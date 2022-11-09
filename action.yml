@@ -9,7 +9,7 @@ inputs:
     description: 'The path to write the PDF file to'  
     default: 'output.pdf'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
 branding:
   icon: 'message-square'  
